@@ -13,9 +13,10 @@
   "author": "sexyoung <Habuche@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "WEBPACK_ENV=dev webpack --config webpack.config.dev.babel.js --progress --colors --watch",
-    "test":  "NODE_PATH=./src mocha --watch --compilers js:babel-core/register --colors ./test/*.spec.js",
-    "build": "NODE_ENV=production webpack -p --config webpack.config.prod.babel.js"
+    "start":      "WEBPACK_ENV=dev webpack --config webpack.config.dev.babel.js --progress --colors --watch",
+    "test":       "NODE_PATH=./src mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test-watch": "NODE_PATH=./src mocha --watch --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "build":      "NODE_ENV=production webpack -p --config webpack.config.prod.babel.js"
   },
   "devDependencies": {
     "babel": "^6.23.0",

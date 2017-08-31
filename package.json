@@ -1,0 +1,38 @@
+{
+  "name": "id",
+  "version": "0.1.0",
+  "description": "Check ID card tools for taiwan",
+  "keywords": [
+    "id",
+    "check",
+    "generate"
+  ],
+  "main": "lib/id.js",
+  "repository": "https://github.com/sexyoung/id.git",
+  "bugs": "https://github.com/sexyoung/id/issues",
+  "author": "sexyoung <Habuche@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "WEBPACK_ENV=dev webpack --config webpack.config.dev.babel.js --progress --colors --watch",
+    "test":  "NODE_PATH=./src mocha --watch --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "build": "NODE_ENV=production webpack -p --config webpack.config.prod.babel.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "mocha": "^3.5.0",
+    "webpack": "^3.5.5"
+  }
+}

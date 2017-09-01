@@ -16,7 +16,7 @@ yarn add id.js
 
 ## Using id.js
 ```js
-import id from 'id.js';
+import ID from 'id.js';
 
 /* Create a id Checker */
 const idChecker = new ID('Taiwan');

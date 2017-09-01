@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/sexyoung/id.svg?branch=master)](https://travis-ci.org/sexyoung/id) [![Code Climate](https://codeclimate.com/github/sexyoung/id/badges/gpa.svg)](https://codeclimate.com/github/sexyoung/id) [![codecov](https://codecov.io/gh/sexyoung/id/branch/master/graph/badge.svg)](https://codecov.io/gh/sexyoung/id) [![npm version](https://badge.fury.io/js/id.js.svg)](https://badge.fury.io/js/id.js) [![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/sexyoung/id.js)](http://clayallsopp.github.io/readme-score?url=https://github.com/sexyoung/id.js)
 
-**方便：** id.js 希望可以幫使用者快速檢查身份證是否有效。若無效，則會告知無效的原因。除此之外，它還可以幫使用者產出隨機身份證。
-
 ## Features
 - Singopore
 - Hong Kong
@@ -45,6 +43,6 @@ idChecker.generate({ count: 5 });
 idChecker.generate({
   area: 'A',
   gender: 'female'
-  count: 5,
-});
+  count: 3,
+}); // => ['A123456789', 'A123456789', 'A123456789']
 ```

@@ -14,9 +14,9 @@ describe('check have function', () => {
 
   it('should can\'t empty', () => {
     expect(idChecker.check()).to.equal('NotAllowedEmpty');
+    expect(idChecker.check(1)).to.equal('NotAllowedEmpty');
     expect(idChecker.check('')).to.equal('NotAllowedEmpty');
     expect(idChecker.check({})).to.equal('NotAllowedEmpty');
     expect(idChecker.check(null)).to.equal('NotAllowedEmpty');
-    expect(idChecker.check(undefined)).to.equal('NotAllowedEmpty');
   });
 });

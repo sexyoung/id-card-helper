@@ -17,16 +17,9 @@ class Formater {
     return true;
   }
 
-  /* generate id, and assign config */
-  generate() {
-    return 'generate';
-  }
-
   static isEmpty(idCode) {
     if (idCode === '') return true;
     if (idCode === null) return true;
-    if (idCode === undefined) return true;
-    if (typeof idCode === 'object' && Object.keys(idCode).length === 0) return true;
     if (typeof idCode !== 'string') return true;
     return false;
   }

@@ -13,10 +13,11 @@
   "author": "sexyoung <Habuche@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start":      "WEBPACK_ENV=dev webpack --config webpack.config.dev.babel.js --progress --colors --watch",
-    "test":       "NODE_PATH=./src mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "start": "WEBPACK_ENV=dev webpack --config webpack.config.dev.babel.js --progress --colors --watch",
+    "test": "NODE_PATH=./src mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
     "test-watch": "NODE_PATH=./src mocha --watch --compilers js:babel-core/register --colors ./test/*.spec.js",
-    "build":      "NODE_ENV=production webpack -p --config webpack.config.prod.babel.js"
+    "coverage": "NODE_PATH=./src nyc --reporter=html --reporter=text mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "build": "NODE_ENV=production webpack -p --config webpack.config.prod.babel.js"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -34,6 +35,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.3.0",
     "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
     "webpack": "^3.5.5"
   }
 }

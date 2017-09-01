@@ -26,11 +26,8 @@ class TaiwanFormater extends Formater {
       } else if (isInvalidFirstChar(idCode)) {
         /* is firstChar invalid? */
         throw new Error(ERROR.FIRST);
-      } else if (isInvalidFirstChar(idCode)) {
-        /* is firstChar invalid? */
-        throw new Error(ERROR.FIRST);
-      } else if (isInvalidSecondChar(idCode)) {
-        /* is firstChar invalid? */
+      }  else if (isInvalidSecondChar(idCode)) {
+        /* is secondChar invalid? */
         throw new Error(ERROR.SECOND);
       } else if (isInvalidNumber(idCode)) {
         /* is others invalid Number? */

@@ -11,7 +11,7 @@ describe('check Taiwan ID', () => {
   });
 
   it('should Length be 10', () => {
-    expect(idChecker.check('A')).to.equal('InvalidLength');
+    expect(idChecker.check(' A')).to.equal('InvalidLength');
     expect(idChecker.check('A1')).to.equal('InvalidLength');
     expect(idChecker.check('A123456789')).to.be.true;
   });

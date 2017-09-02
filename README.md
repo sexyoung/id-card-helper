@@ -33,9 +33,6 @@ idChecker.generate({ area: 'A' });
 /* Generate female ID */
 idChecker.generate({ gender: 'female' });
 
-/* Generate Taipei Area ID */
-idChecker.generate({ area: 'A' });
-
 /* Generate 5 ID */
 idChecker.generate({ count: 5 });
 

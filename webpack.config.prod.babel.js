@@ -1,6 +1,6 @@
 import config from './webpack.config.babel';
 
-const libraryName = 'id';
+const libraryName = 'id-card-helper';
 const outputFile = `${libraryName}.js`;
 
 export default {

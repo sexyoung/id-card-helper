@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/sexyoung/id.js.svg?branch=master)](https://travis-ci.org/sexyoung/id.js) [![Code Climate](https://codeclimate.com/github/sexyoung/id.js/badges/gpa.svg)](https://codeclimate.com/github/sexyoung/id.js) [![codecov](https://codecov.io/gh/sexyoung/id.js/branch/master/graph/badge.svg)](https://codecov.io/gh/sexyoung/id.js) [![npm version](https://badge.fury.io/js/id.js.svg)](https://badge.fury.io/js/id.js) [![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/sexyoung/id.js)](http://clayallsopp.github.io/readme-score?url=https://github.com/sexyoung/id.js)
+[![Build Status](https://travis-ci.org/sexyoung/id-card-helper.svg?branch=master)](https://travis-ci.org/sexyoung/id-card-helper) [![Code Climate](https://codeclimate.com/github/sexyoung/id-card-helper/badges/gpa.svg)](https://codeclimate.com/github/sexyoung/id-card-helper) [![codecov](https://codecov.io/gh/sexyoung/id-card-helper/branch/master/graph/badge.svg)](https://codecov.io/gh/sexyoung/id-card-helper) [![npm version](https://badge.fury.io/js/id-card-helper.svg)](https://badge.fury.io/js/id-card-helper) [![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/sexyoung/id-card-helper)](http://clayallsopp.github.io/readme-score?url=https://github.com/sexyoung/id-card-helper)
 
-** id.js ** is a plugin for check ID or generate random ID. Currently it support Taiwan ID.
+**id-card-helper** is a plugin for check ID or generate random ID. Currently it support Taiwan ID.
 
 ## Features
 - Singopore
@@ -10,37 +10,37 @@
 - yarn
 - node
 
-## Installing id.js
+## Installing id-card-helper
 
 ```sh
-yarn add id.js
+yarn add id-card-helper
 ```
 
-## Using id.js
+## Using id-card-helper
 ```js
-import ID from 'id.js';
+import IDCardHelper from 'id-card-helper';
 
 /* Create a id Checker */
-const idChecker = new ID('Taiwan');
+const taiwanCard = new IDCardHelper('Taiwan');
 
 /* Checking ID is valid */
-idChecker.check('A123456789'); // => true
+taiwanCard.check('A123456789'); // => true
 
 /* Generate random ID */
-idChecker.generate(); // =>  'A123456789'
+taiwanCard.generate(); // =>  'A123456789'
 
 /* Generate Taipei Area ID */
-idChecker.generate({ area: 'A' }); // =>  'A123456789'
+taiwanCard.generate({ area: 'A' }); // =>  'A123456789'
 
 /* Generate female ID */
-idChecker.generate({ gender: 'female' }); // => 'X280697928To'
+taiwanCard.generate({ gender: 'female' }); // => 'X280697928To'
 
 /* Generate 5 ID */
-idChecker.generate({ count: 5 });
+taiwanCard.generate({ count: 5 });
 // => ['L189927266', 'Z156906740', 'D233324744', 'C121315321', 'R254875676']
 
 /* Or you can combine parameters */
-idChecker.generate({
+taiwanCard.generate({
   area: 'A',
   gender: 'female'
   count: 3,

@@ -1,15 +1,17 @@
 {
-  "name": "id.js",
-  "version": "0.1.4",
-  "description": "Check ID card validation",
+  "name": "id-card-helper",
+  "version": "0.1.1",
+  "description": "ID card helper",
   "keywords": [
     "id",
+    "card",
+    "hlper",
     "check",
     "generate"
   ],
-  "main": "lib/id.js",
-  "repository": "https://github.com/sexyoung/id.js.git",
-  "bugs": "https://github.com/sexyoung/id.js/issues",
+  "main": "lib/id-card-helper.js",
+  "repository": "https://github.com/sexyoung/id-card-helper.git",
+  "bugs": "https://github.com/sexyoung/id-card-helper/issues",
   "author": "sexyoung <Habuche@gmail.com>",
   "license": "MIT",
   "scripts": {

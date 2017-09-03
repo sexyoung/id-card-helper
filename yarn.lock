@@ -3125,9 +3125,9 @@ icss-utils@^2.1.0:
   dependencies:
     postcss "^6.0.1"
 
-id-card-helper@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/id-card-helper/-/id-card-helper-0.1.0.tgz#b003daf6c072d5cb480265ac15b645d171c6c54d"
+id-card-helper@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/id-card-helper/-/id-card-helper-0.1.1.tgz#0bcb30203f0890d3de6d12b17d01d7d1daf9d0df"
 
 ieee754@^1.1.4:
   version "1.1.8"

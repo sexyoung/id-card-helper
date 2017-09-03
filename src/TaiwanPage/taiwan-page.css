@@ -3,6 +3,10 @@
   .taiwan-page .input-group .input-lg {
     font-size: 22px;
     letter-spacing: 1px; }
+  @media (max-width: 768px) {
+    .taiwan-page .input-group .input-lg {
+      font-size: 16px;
+      letter-spacing: 0px; } }
 
 .taiwan-page .hero {
   text-align: center;
@@ -19,3 +23,8 @@
   text-align: left;
   border-radius: 3px;
   margin: 50px auto; }
+  .taiwan-page .block-multiple .output ul {
+    text-align: center;
+    list-style: none; }
+    .taiwan-page .block-multiple .output ul li {
+      border-bottom: 1px solid #eee; }

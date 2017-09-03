@@ -20,7 +20,7 @@ class App extends Component {
               <div className="container grid-lg">
                 <Link className="logo" to="/">id card helper</Link>
                 <ul>
-                  <li><Link to="/taiwan">身份證助手</Link></li>
+                  <li><Link to="/taiwan">身份證幫手</Link></li>
                 </ul>
               </div>
             </nav>

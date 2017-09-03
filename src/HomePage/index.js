@@ -11,7 +11,7 @@ const HomePage = () => (
         <u>輕量</u>，
         <u>簡單</u> 而且
         <u>方便</u>
-        的身份證檢查器
+      的身份證幫手
       </h2>
       <div className="text-gray">目前支援：<span className="version" />台灣</div>
     </div>

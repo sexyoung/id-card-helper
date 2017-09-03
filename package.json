@@ -1,6 +1,6 @@
 {
   "name": "id-card-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "http://sexyoung.github.io/id-card-helper",
   "dependencies": {

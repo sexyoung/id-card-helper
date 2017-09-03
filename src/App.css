@@ -30,7 +30,7 @@ html, body {
 .app footer {
   padding: 40px; }
   .app footer .version::before {
-    content: '0.1.0'; }
+    content: '0.1.1'; }
 
 .block {
   text-align: center;

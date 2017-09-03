@@ -1,0 +1,81 @@
+@import './var.scss';
+@import "../node_modules/normalize.css/normalize.css";
+@import "../node_modules/spectre.css/dist/spectre.min.css";
+
+html, body, .app {
+  min-height: 100vh;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  header {
+    position: relative;
+    height: 50px;
+    nav {
+      width: 100%;
+      position: fixed;
+      .container {
+        .logo {
+          color: $grey1;
+          font-size: 20px;
+          display: inline-block;
+          margin: .6rem 0 .6rem .8rem;
+        }
+        ul {
+          float: right;
+          list-style: none;
+          li {
+            margin-right: 10px;
+            display: inline;
+            a {
+              color: $grey1;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    padding: 40px;
+    .version::before {
+      content: '0.1.0';
+    }
+  }
+}
+
+.block {
+  text-align: center;
+  padding: 30px;
+}
+
+.terminal {
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #2b3d50;
+  max-width: 700px;
+  margin: 30px auto;
+  .header {
+    background-color: #d7d7d7;
+    text-align: left;
+    padding: 5px;
+    div {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 3px;
+      &.r { background-color: #c23824; }
+      &.y { background-color: #f2c600; }
+      &.g { background-color: #1aaf5d; }
+    }
+  }
+
+  .command {
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: left;
+  }
+}

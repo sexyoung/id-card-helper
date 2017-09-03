@@ -1,0 +1,21 @@
+.taiwan-page .input-group {
+  margin: 20px auto; }
+  .taiwan-page .input-group .input-lg {
+    font-size: 22px;
+    letter-spacing: 1px; }
+
+.taiwan-page .hero {
+  text-align: center;
+  color: #50596c;
+  padding: 70px 0; }
+  .taiwan-page .hero ul {
+    margin: 0 auto; }
+
+.taiwan-page .block-multiple .output {
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 20px;
+  min-height: 300px;
+  text-align: left;
+  border-radius: 3px;
+  margin: 50px auto; }

@@ -1,0 +1,30 @@
+@import '../var.scss';
+
+.taiwan-page {
+  .input-group {
+    margin: 20px auto;
+    .input-lg {
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+  }
+  .hero {
+    text-align: center;
+    color: $grey1;
+    padding: 70px 0;
+    ul {
+      margin: 0 auto;
+    }
+  }
+  .block-multiple {
+    .output {
+      font-size: 22px;
+      letter-spacing: 1px;
+      padding: 20px;
+      min-height: 300px;
+      text-align: left;
+      border-radius: 3px;
+      margin: 50px auto;
+    }
+  }
+}

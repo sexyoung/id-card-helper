@@ -29,8 +29,8 @@ class App extends Component {
           <Route path="/taiwan" component={TaiwanPage} />
           <footer className="bg-gray">
             <div className="container grid-lg">
-              <p><a href="https://github.com/sexyoung/id-card-helper" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.paypal.me/picturepan2" target="_blank" rel="noopener noreferrer">PayPal Donate</a> | Version <span className="version" /></p>
-              <p>Designed and built with ♥ by <a href="https://twitter.com/sexyoung1985" target="_blank" rel="noopener noreferrer">Sexyoung</a>. Licensed under the <a href="https://github.com/picturepan2/spectre/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>.</p>
+              <p><a href="https://github.com/sexyoung/id-card-helper" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://paypal.me/sexyoung" target="_blank" rel="noopener noreferrer">PayPal Donate</a> | Version <span className="version" /></p>
+              <p>Designed and built with ♥ by <a href="https://twitter.com/sexyoung1985" target="_blank" rel="noopener noreferrer">Sexyoung</a>. Licensed under the <a href="https://github.com/sexyoung/id-card-helper/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>.</p>
             </div>
           </footer>
         </div>
